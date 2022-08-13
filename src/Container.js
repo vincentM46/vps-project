@@ -4,6 +4,7 @@ import AboutUs from './components/AboutUs';
 import RandomRecipePage from './components/RandomRecipePage';
 import SignUpPage from './components/SignUpPage';
 import ErrorPage from './components/ErrorPage';
+import RandomDrink from './components/RandomDrink';
 
 function Container() {
     return (
@@ -12,6 +13,7 @@ function Container() {
                 <Route path="/" element={<HomePage/>}/>
                 <Route path="/AboutUs" element={<AboutUs/>}/>
                 <Route path="/RandomRecipePage" element={<RandomRecipePage/>}/>
+                <Route path="/RandomDrink" element={<RandomDrink/>}/>
                 <Route path="/SignUpPage" element={<SignUpPage/>}/>
                 <Route path="*" element={<ErrorPage/>}/>
             </Routes>
