@@ -8,7 +8,7 @@ function RandomDrink() {
 
   async function handleClick() {
     const response = await randomDrink()
-    console.log(response)
+    // console.log(response)
     setDrinks(response.data.drinks)
   }
 
@@ -18,8 +18,8 @@ function RandomDrink() {
 
   return (
     <div>
-      <h1>Random Drink Recipe</h1>
-      <button onClick={handleClick}>Click for another drink</button>
+      <h1 className="App-header">Random Drink Recipe</h1>
+      <button className="recipe_buttons" onClick={handleClick}>Click for another drink</button>
       <Drinks drinks={drinks} />
     </div>
   )
