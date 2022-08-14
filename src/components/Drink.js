@@ -3,9 +3,11 @@ import React from 'react';
 function Drink(props) {
     let aDrink = props.value
     return (
-        <div key={props.index}>
-            <h2>{aDrink.strDrink}</h2>
-            <h5>Type: {aDrink.strCategory}, Glass: {aDrink.strGlass}</h5>
+        <div className="recipes__box" key={props.index}>
+            <div className="recipe__text">
+            <h2 className="recipes__title">{aDrink.strDrink}</h2>
+            <p className="recipes__subtitle">
+            <h4>Type: {aDrink.strCategory}, Glass: {aDrink.strGlass}</h4>
             <table style={{ 'width': '80%', 'margin-left': '10%' }}>
                 <thead>
                     <tr>
@@ -38,6 +40,8 @@ function Drink(props) {
                     </tr>
                 </tbody>
             </table>
+            </p>
+            </div>
         </div>
     )
 }

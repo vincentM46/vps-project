@@ -22,9 +22,9 @@ function SearchDrink() {
     
     return (
         <div>
-            <h1>Search Drink Recipe</h1>
-            <input type="text" placeholder="search..." name="search" onChange={e => setSearchTitle(e.target.value)} />
-            <button onClick={handleClick}>Search</button>
+            <h1 className="App-header">Search for Drink Recipes</h1>
+            <input type="text" placeholder="Cheers!" name="search" onChange={e => setSearchTitle(e.target.value)} />
+            <button className="recipe_buttons" onClick={handleClick}>Search</button>
             <Drinks drinks={drinks} />
         </div>
     )
