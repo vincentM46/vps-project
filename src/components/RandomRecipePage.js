@@ -33,7 +33,7 @@ function Random(props) {
             <div className="recipes__box">                
                 <div className="recipe__text">     
                     <h5 className="recipes__title">{recipe}</h5>     
-                    <table className="recipe-table" style={{'width': '90%', 'margin-left': '5%' }}>
+                    <table className="recipe-table" style={{'width': '90%', 'marginLeft': '5%' }}>
                     <thead>
                         <tr>
                             <th width="20%">Ingredients</th>
@@ -46,7 +46,7 @@ function Random(props) {
                         <td width="20%">                    
                             {food.data?.recipes[0].extendedIngredients.map((f, index) => {   console.log(food.data)
                                 return (  
-                                                          
+                               
                                     <li>{f.original}</li>
                                       
                                 )
