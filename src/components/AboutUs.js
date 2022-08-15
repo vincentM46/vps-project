@@ -7,9 +7,10 @@ function AboutUs() {
             
             <br></br><br></br>
             <h1>Welcome to My&#123;Dev&#125;Page!</h1>
-            <p>Detailed descriptions of the API's used, as well as endpoints and other methods go here.</p>
+            <p>The ability to generate recipes for various drinks was brought to you by TheCocktailDB API. This api is an open, crowd-sourced database of drinks and cocktails from various parts of the world, with a total of 635 drinks, and 489 ingredients.</p>
+            <p>The ability to generate recipes for various meals was brogught to you by the Spoonacular API. The Spoonacular API contains over 5000 recipes, with more than 2600 ingredients across the board.</p>
             <h2>Brought to you by the VPS (actual footage):</h2>
-            <iframe src="https://c.tenor.com/7W_a28lhqQcAAAAC/bugcat-bugcatsticker.gif" width="480" height="360" frameBorder="0"></iframe>
+            <iframe src="https://c.tenor.com/7W_a28lhqQcAAAAC/bugcat-bugcatsticker.gif" width="480" height="360" frameBorder="0" title="meme"></iframe>
             <h2>Take a peek at our GitHub profiles:</h2>
             <br></br>   
             <div className="github-links" id="github-links">
