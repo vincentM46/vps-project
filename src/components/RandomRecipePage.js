@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { SpoonAPI } from '../services/SpoonAPI';
 
-function Random(props) {    
+function Random() {    
     const [recipe, setRecipe] = useState("");
     const [image, setImage] = useState("");
     const [steps, setSteps] = useState("");

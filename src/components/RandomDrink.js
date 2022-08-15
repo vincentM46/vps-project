@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-
 import { randomDrink } from '../services/drink-api';
 import Drinks from './Drinks';
 
