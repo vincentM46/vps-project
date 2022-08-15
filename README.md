@@ -1,73 +1,25 @@
 # VPS Project
 
+# Welcome to the VPS Project! This was a collaborative app built in React. This app utilizes two different API's to generate random recipes and drinks for any user to explore through and enjoy! Within the app, there also exists a method of searching for specific drinks to match the randomly generated recipe! Don't like what you got? Just roll again! The purpose of this app is to give freedom to the user to choose and look through thousands of different recipes, to find one that suits them best!
+
+
 ## Component Hierarchy
 ![Component Hierarchy](hier.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Wireframe
 
-In the project directory, you can run:
 
-### `npm start`
+## API's used:
+Spoonacular: https://spoonacular.com/food-api/docs
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+TheCocktailDB: https://www.thecocktaildb.com/api.php
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## MVP
+The developed app has the following capabilities: Home Page | About Us | Random Drink | Search for a Drink | Random Recipe | Sign-Up; the drink and recipe pages will further showcase images of the generated recipes for the user to view, and eat, or drink, with their eyes!
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# SWOT Analysis
+Strengths: The strengths of the app lie in the logic behind the api calls, allowing for the user to freely generate multiple recipes and search through recipes involving various ingredients to find exactly what they prefer!
+Weaknesses: Some weaknesses of the app include the sign-up page not being fully finished, and thus not being a viable capability at the time.
+Opportunities: This app could potentially be used by people globally to view and explore recipes from outside of their comfort zone! With the ability to view collected recipes from all over the world, the possibilities might just be endless!
+Threats: The largest threat of the API is the Spoonacular API being rate-limited, and as such might incur heavy costs relevent to the amount of traffic tha app gets.
