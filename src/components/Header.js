@@ -8,8 +8,8 @@ function Header() {
                 <NavLink className="navbar" to={"/"}>Home</NavLink>
                 <NavLink className="navbar" to={"/AboutUs"}>About Our Page!</NavLink>                 
                 <NavLink className="navbar" to={"/RandomDrink"}>Get a Random Drink Recipe!</NavLink>
-                <NavLink className="navbar" to={"/SearchDrink"}>Search Drink Recipe!</NavLink>
-                <NavLink className="navbar" to={"/RandomRecipePage"}>Get a Recipe!</NavLink>
+                <NavLink className="navbar" to={"/SearchDrink"}>Search for a Drink Recipe!</NavLink>
+                <NavLink className="navbar" to={"/RandomRecipePage"}>Get a random Recipe!</NavLink>
                 <NavLink className="navbar" to={"/SignUpPage"}>Sign Up!</NavLink>
             </nav>
         </div>
