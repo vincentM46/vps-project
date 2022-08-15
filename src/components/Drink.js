@@ -8,7 +8,7 @@ function Drink(props) {
             <h2 className="recipes__title">{aDrink.strDrink}</h2>
             <p className="recipes__subtitle">
             <h4>Type: {aDrink.strCategory}, Glass: {aDrink.strGlass}</h4>
-            <table style={{ 'width': '80%', 'margin-left': '10%' }}>
+            <table style={{ 'width': '80%', 'marginLeft': '10%' }}>
                 <thead>
                     <tr>
                         <th width="20%">Ingredients</th>

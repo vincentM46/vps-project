@@ -11,18 +11,17 @@ function AboutUs() {
 
             <h2>Take a peek at our GitHub profiles:</h2>
             <br></br>   
-            <div className="github-links" id="github-links">
-                
+            <div className="github-links">                
                 <a href="https://github.com/vincentM46" target="_blank" rel="noreferrer">      
                 <img src={githubmark} alt='VM GitHub Mark' id='VM-github-mark'/>
-                <p>VM</p>
+                <p id='gh-text'>VM</p>
                 </a>
                 <a href="https://github.com/padangy" target="_blank" rel="noreferrer">            
                 <img src={githubmark} alt='PD GitHub Mark' id='PD-github-mark'/> 
-                <p>PD</p>
+                <p id='gh-text'>PD</p>
                 </a>
                 <a href="https://github.com/sabrinar777" target="_blank" rel="noreferrer"><img src={githubmark} alt='SR GitHub Mark' id='SR-github-mark'/>
-                <p>SR</p>
+                <p id='gh-text'>SR</p>
                 </a>               
             </div>  
             <br></br><br></br>
