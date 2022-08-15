@@ -1,5 +1,9 @@
 function Footer() {
     return (
+
+        <div className="footer">
+            <h3>&copy; 2022-16-rtt</h3>
+
         <div>
             <p className="App-footer">The creators of the VPS project give sincere thanks to: TheCocktailDB and Spoonacular for allowing usage of their API's. </p>
 
