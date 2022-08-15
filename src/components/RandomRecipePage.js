@@ -28,12 +28,12 @@ function Random(props) {
 
     return (
         <div>
-            <h1 className="App-header">Get some food with your drink!</h1>
+            <h1 className="App-header">Random Food Recipe</h1>
             <button className="recipe_buttons" onClick={() => handleClick()}>Click for a randomly generated recipe!</button>
             <div className="recipes__box">                
                 <div className="recipe__text">     
                     <h5 className="recipes__title">{recipe}</h5>     
-                    <table style={{ 'width': '80%', 'margin-left': '10%' }}>
+                    <table className="recipe-table" style={{'width': '90%', 'margin-left': '5%' }}>
                     <thead>
                         <tr>
                             <th width="20%">Ingredients</th>
@@ -43,22 +43,14 @@ function Random(props) {
                     </thead>
                     <tbody>
                         <tr>
-                        <td width="20%">
-                            {food ? food.data.recipes[0].extendedIngredients[0].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[1].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[2].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[3].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[4].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[5].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[6].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[7].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[8].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[9].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[10].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[11].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[12].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[13].original : ''}<br />
-                            {food ? food.data.recipes[0].extendedIngredients[14].original : ''}<br />
+                        <td width="20%">                    
+                            {food.data?.recipes[0].extendedIngredients.map((f, index) => {   console.log(food.data)
+                                return (  
+                                                          
+                                    <li>{f.original}</li>
+                                      
+                                )
+                            })}                           
                         </td>
                         <td width='50%' valign='top'>                       
                         <p className="recipes__subtitle">{steps}</p>                        

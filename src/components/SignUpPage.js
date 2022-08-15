@@ -12,7 +12,7 @@ function SignUpPage() {
         <div>
             <h3 className="App-header">Thanks for stopping by our page! Sign up here to be a part of our VPS Member's Lounge!</h3>
             <input type="text" value={inputValue} onChange={handleInputChage} placeholder="Your email here"/>
-            <input type="submit" value="Submit" onClick={handleSubmitButton}/>
+            <input className="recipe_buttons" type="submit" value="Submit" onClick={handleSubmitButton}/>
         </div>
 
     )
