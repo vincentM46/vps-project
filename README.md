@@ -13,7 +13,9 @@
 ![random-recipe-wireframe](https://user-images.githubusercontent.com/105744102/184576099-bc2d96fb-ba24-4609-9f4e-c811c9ff5c72.PNG)
 ![search-drink-wireframe](https://user-images.githubusercontent.com/105744102/184576143-84e84da7-30ab-4005-af81-b922e38e2b71.PNG)
 
-Netlify link: https://www.figma.com/file/RSWAdswegn7I564bR03fKT/The-VPS-Bar?node-id=0%3A1
+Figma Link: https://www.figma.com/file/RSWAdswegn7I564bR03fKT/The-VPS-Bar?node-id=0%3A1
+
+Netlify Link: https://vps-project.netlify.app/
 
 ## API's used:
 Spoonacular: https://spoonacular.com/food-api/docs
