@@ -130,3 +130,18 @@ input[type="text"] {
 .footer h3 {
   color: white;
 }
+.images {
+  display: flex
+}
+.image1 {
+  width: 300px;
+}
+.image2 {
+  width: 300px;
+}
+.dinner1 {
+  width: 300px;
+}
+.dinner2 {
+  width: 300px;
+}
